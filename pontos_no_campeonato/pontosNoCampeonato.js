@@ -2,7 +2,7 @@ const resultados = ["V", "E", "V", "E"]
 
 let pontuacao = 0
 
-for (ponto of resultados) {
+for (let ponto of resultados) {
     if (ponto == "V") {
         pontuacao += 3
     } else if (ponto == "E") {
