@@ -1,11 +1,11 @@
-const palpite = 'a'
-const palavra = 'abelha'
+const palpite = "a";
+const input = "abelha";
 
-let acertos = 0
+let acertos = 0;
 
-for (let letra of palavra) {
-    if (letra == palpite) {
-        acertos++
-    }
+for (let letra of input) {
+  if (letra == palpite) {
+    acertos++;
+  }
 }
-console.log(acertos)
+console.log(acertos);
